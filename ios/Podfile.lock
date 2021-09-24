@@ -1,0 +1,46 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_blue (0.0.1):
+    - Flutter
+    - flutter_blue/Protos (= 0.0.1)
+  - flutter_blue/Protos (0.0.1):
+    - Flutter
+    - Protobuf (~> 3.11.4)
+  - iOSDFULibrary (4.10.4):
+    - ZIPFoundation (= 0.9.11)
+  - nordic_dfu (1.0.0):
+    - Flutter
+    - iOSDFULibrary (~> 4.10.3)
+  - Protobuf (3.11.4)
+  - ZIPFoundation (0.9.11)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_blue (from `.symlinks/plugins/flutter_blue/ios`)
+  - nordic_dfu (from `.symlinks/plugins/nordic_dfu/ios`)
+
+SPEC REPOS:
+  trunk:
+    - iOSDFULibrary
+    - Protobuf
+    - ZIPFoundation
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_blue:
+    :path: ".symlinks/plugins/flutter_blue/ios"
+  nordic_dfu:
+    :path: ".symlinks/plugins/nordic_dfu/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_blue: eeb381dc4727a0954dede73515f683865494b370
+  iOSDFULibrary: 5d41d0ac69418d63755195db5f46e99588ae7d48
+  nordic_dfu: 5f7b2122e60282c1c6489b1bd3348e7a8555cfb4
+  Protobuf: 176220c526ad8bd09ab1fb40a978eac3fef665f7
+  ZIPFoundation: b1f0de4eed33e74a676f76e12559ab6b75990197
+
+PODFILE CHECKSUM: fe0e1ee7f3d1f7d00b11b474b62dd62134535aea
+
+COCOAPODS: 1.10.2
