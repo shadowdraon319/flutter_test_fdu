@@ -59,7 +59,7 @@ class _MyAppState extends State<MyApp> {
           });
         }),
       );
-      print(s);
+
       dfuRunning = false;
     } catch (e) {
       dfuRunning = false;
